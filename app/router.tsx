@@ -47,5 +47,5 @@ export const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: "/NeoDivaREVAMP/", // Your GitHub repository name
+  basename: "/neodiva-site/"
 });

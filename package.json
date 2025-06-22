@@ -1,7 +1,7 @@
 {
   "name": "neodivarevamp",
   "private": true,
-  "homepage": "https://alexfloareavt.github.io/NeoDiva/",
+  "homepage": "https://alexfloareavt.github.io/neodiva-site/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
