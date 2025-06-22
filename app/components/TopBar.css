@@ -1,0 +1,38 @@
+/* src/components/TopBar.css */
+.top-bar {
+  display: flex;
+  flex-direction: row; /* Changed from column to row */
+  justify-content: space-between; /* Pushes logo and menu to opposite ends */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: black/0;
+  position: top;
+  top: 0;
+  z-index: 50;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.menu {
+  /* margin-top is no longer needed for horizontal alignment */
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #e854f0;
+}

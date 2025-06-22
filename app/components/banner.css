@@ -1,0 +1,20 @@
+/* src/components/Banner.css */
+.banner {
+  background-color: transparent; /* Make background transparent */
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 3.5rem; /* Increased font size */
+  font-weight: 700;
+}
+
+.banner p {
+  margin: 0.5rem 0 0;
+  font-size: 1.5rem; /* Increased font size */
+  opacity: 0.9;
+}

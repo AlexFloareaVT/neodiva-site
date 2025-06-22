@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+  /* This prevents the main browser window from scrolling */
+  overflow: hidden;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+/* Custom scrollbar styling for the scroll container */
+#scroll-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+#scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+#scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 100, 255, 0.7);
+}
